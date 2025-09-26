@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
         padding: EdgeInsets.all(9),
         child: Column(
           children: [
-            TextField(
+            TextFormField(
               controller: _nameController,
               decoration: InputDecoration(
                 labelText: 'Name',
@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 15),
-            TextField(
+            TextFormField(
               controller: _numberController,
               decoration: InputDecoration(
                 labelText: 'Number',
